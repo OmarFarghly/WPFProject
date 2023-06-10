@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm ="clr-namespace:WpfProject.ViewModel"
+                     xmlns:view ="clr-namespace:WpfProject.View" xmlns:view1="clr-namespace:WpfProject">
+    <!--<DataTemplate DataType="{x:Type vm:MainWindowViewModel}">
+        <view1:MainWindow/>
+    </DataTemplate>-->
+    <DataTemplate DataType="{x:Type vm:StudentWindowViewModel}">
+        <view:StudentWindow/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:TeacherWindowViewModel}">
+        <view:TeacherWindow/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:SubjectWindowViewModel}">
+        <view:SubjectWindow/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:DashBoardWindowViewModel}">
+        <view:DashBoardWindow/>
+    </DataTemplate>
+
+</ResourceDictionary>
